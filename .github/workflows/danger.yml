@@ -31,7 +31,7 @@ jobs:
         run: chmod +x gradlew
 
       - name: Set Up Ruby
-        uses: actions/setup-ruby@v1
+        uses: actions/setup-ruby@v3
         with:
           ruby-version: 2.6
 
