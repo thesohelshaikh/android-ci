@@ -30,6 +30,11 @@ jobs:
       - name: Grant execute permission for gradlew
         run: chmod +x gradlew
 
+      - name: Set Up Ruby
+        uses: actions/setup-ruby@v1A
+        with:
+          ruby-version: 2.6
+
       - name: Danger Checks
         run: |
             gem install bundler
