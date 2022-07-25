@@ -10,6 +10,7 @@
 This project has GitHub Actions workflows to validate our code for us automatically. The project currently uses two workflows.
 
 **1. Android Build:** The Android Build workflow automates the core checks for the repository: compile, unit tests. This is set to run on every push.
+
 **2. Danger Checks:** This workflow runs general checks and performs general house keeping on pull requests. This is set to run on every pull request.
 
 # Static Analysis
