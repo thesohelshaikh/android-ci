@@ -4,11 +4,13 @@ plugins {
     id 'com.android.library' version '7.2.1' apply false
     id 'org.jetbrains.kotlin.android' version '1.7.10' apply false
     id "org.jlleitschuh.gradle.ktlint" version "10.3.0"
+    id 'io.gitlab.arturbosch.detekt' version '1.21.0'
 
 }
 
 subprojects {
     apply plugin: "org.jlleitschuh.gradle.ktlint"
+    apply plugin: "io.gitlab.arturbosch.detekt"
 
     ktlint {
         reporters {
@@ -16,6 +18,17 @@ subprojects {
             reporter "html"
         }
     }
+
+    detekt {
+        config = files("${rootProject.projectDir}/config/detekt/detekt.yml")
+
+        reports {
+            html.enabled = true
+            xml.enabled = true
+            txt.enabled = true
+        }
+    }
+
 
 }
 
