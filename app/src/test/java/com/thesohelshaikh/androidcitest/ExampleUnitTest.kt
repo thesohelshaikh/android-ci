@@ -1,4 +1,4 @@
-package com.thesohelshaikh.android_ci_test
+package com.thesohelshaikh.androidcitest
 
 import org.junit.Assert.assertEquals
 import org.junit.Test
