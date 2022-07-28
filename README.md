@@ -21,6 +21,18 @@ This project has GitHub Actions workflows to validate our code for us automatica
 
 **2. Danger Checks:** This workflow runs general checks and performs general house keeping on pull requests. This is set to run on every pull request.
 
+# Danger 
+
+[Danger](https://danger.systems/ruby/) runs during your CI process, and gives teams the chance to automate common code review chores.
+
+This provides another logical step in your build, through this Danger can help lint your rote tasks in daily code review.
+
+You can use Danger to codify your teams norms. Leaving humans to think about harder problems.
+
+She does this by leaving messages inside your PRs based on rules that you create with the Ruby scripting language.
+
+Over time, as rules are adhered to, the message is amended to reflect the current state of the code review.
+
 # Static Analysis
 
 This project leverages static analysis to ensure that the codebase meets certain standards that can be verified through automation. Two of these libraries are Detekt and Ktlint.
