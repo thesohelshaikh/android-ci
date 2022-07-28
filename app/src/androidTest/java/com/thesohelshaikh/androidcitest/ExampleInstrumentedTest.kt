@@ -1,4 +1,4 @@
-package com.thesohelshaikh.android_ci_test
+package com.thesohelshaikh.androidcitest
 
 import androidx.test.ext.junit.runners.AndroidJUnit4
 import androidx.test.platform.app.InstrumentationRegistry
