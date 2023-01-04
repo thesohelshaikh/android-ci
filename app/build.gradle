@@ -29,6 +29,12 @@ android {
     kotlinOptions {
         jvmTarget = '1.8'
     }
+
+    lintOptions {
+        disable 'GradleDependency'
+        xmlReport true
+        xmlOutput file("$reportsDir/lint-report.xml")
+    }
 }
 
 dependencies {

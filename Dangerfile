@@ -66,3 +66,9 @@ end
 
 # Make sure PRs have assignee
 warn "This PR does not have any assignees yet." unless github.pr_json["assignee"]
+
+
+android_lint.skip_gradle_task = true
+android_lint.filtering = true
+android_lint.report_file = "app/build/reports/lint-report.xml"
+android_lint.lint
