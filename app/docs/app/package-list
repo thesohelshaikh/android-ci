@@ -1,0 +1,7 @@
+$dokka.format:gfm-v1
+$dokka.linkExtension:md
+$dokka.location:com.thesohelshaikh.androidcitest////PointingToDeclaration/app/com.thesohelshaikh.androidcitest/index.md
+$dokka.location:com.thesohelshaikh.androidcitest/MainActivity///PointingToDeclaration/app/com.thesohelshaikh.androidcitest/-main-activity/index.md
+$dokka.location:com.thesohelshaikh.androidcitest/MainActivity/MainActivity/#/PointingToDeclaration/app/com.thesohelshaikh.androidcitest/-main-activity/-main-activity.md
+com.thesohelshaikh.androidcitest
+
